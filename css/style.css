@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.bodystyle{
+    width: 90%;
+    margin: 0 auto;
+}
+.logo{
+    height: 40px;
+    width: 100px;
+}
+.nav-link:hover{
+    border-bottom: 2px solid black;
+}
+.carousel-item{
+    height: 450px;
+    position: relative;
+    z-index: 1;
+}
+.carousel-caption{
+    position: absolute;
+    top:5%;
+    left: 7%!important;
+    color: black;
+}
+.carousel-caption h3{
+    text-align: left;
+    color: black;
+}
+.carousel-caption p{
+    text-align: left;
+}
+.carousel-caption button{
+    color: white;
+    background: blue;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    position: absolute;
+    left:0;
+
+}
+main{
+    margin: 40px 0;
+}
+.card{
+    border: none !important;
+}
+.card-body{
+    padding: 5px 0!important;
+}
+.card-body h5{
+    font-weight: bold;
+}
+.social a,.empty a,.btmcard a{
+    text-decoration: none;
+    font-weight: bold;
+}
+li{
+    list-style: none;
+}
+
+.msstyle{
+    width: 100%;
+    height: 450px;
+    background-image:linear-gradient(to top,rgba(0,0,0,0.4),rgba(0,0,0,0.8)),url(../images/banner.avif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 20px 0 40px 0;
+    position: relative;
+}
+.msstyle .mstore{
+  background: white;
+  width: 350px;
+  height: 250px;
+  position: absolute;
+  top:10%;
+  left: 8%;
+  text-align: center;
+}
+.mstore button{
+    color: white;
+    background: blue;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    
+}
+.mstore h3{
+    padding: 20px 0;
+}
+.btmcard{
+    margin: 50px 0;
+}
+.social{
+    margin-bottom: 40px;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-facebook-official{
+    color: #425daa;
+}
+footer{
+    background-color: #f2f2f2;
+    padding: 40px 0;
+    position: relative;
+}
+footer p{
+    padding-left: 2rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: #818181;
+}
+footer li{
+    margin: 10px 0;
+
+}
+.p_footer{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.aftereff p{
+    color:lightcoral;
+    font-weight: 500;
+    text-shadow: 5px 4px 8px rgb(6, 6, 71);
+}
+
+
+/* //media Query */
+
+@media (min-width:650px)
+{
+    .card{
+        width: 100%;
+    }
+    .carousel-item img{
+        height:60vh;
+    }    
+}
+@media (min-width:560px)
+{
+    .card{
+        width: 100%;
+    }
+    .carousel-item img{
+        height:60vh;
+    }    
+}
+@media (max-width:554px)
+{
+    .card{
+        width: 100%;
+    }
+    .carousel-item img{
+        height:60vh;
+    }    
+
+   
+    
+}
+@media (min-width:360px)
+{
+    .card{
+        width: 100%;
+    }
+    .carousel-item img{
+        height:60vh;
+    }    
+    .msstyle .mstore{
+        width: 275px;
+        height: 220px;
+    }
+   
+    
+}
